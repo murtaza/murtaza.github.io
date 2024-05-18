@@ -5,7 +5,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Change from 'center' to 'flex-start' */
   align-items: center;
 }
 
@@ -25,7 +25,7 @@ body {
   font-variant: normal;
   text-transform: none;
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 25vh; /* Add margin-top to move it up by 25% */
   margin-bottom: 20px;
 }
 
